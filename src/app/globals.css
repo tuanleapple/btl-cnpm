@@ -17,11 +17,103 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  box-sizing: border-box;
 }
+.logo{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  background: #f0f0f0;
+  width: 40%;
+  margin-left: 30%;
+  border-radius: 10%;
+}
+.form-data{
+  margin: 5%
+}
+.text{
+  font-size: 20px;
+  padding: 10px 10px 10px 0px;
+  font-weight: 600;
+}
+.input-name{
+  width: 300px;
+  height: 35px;
+  border-radius: 10%;
+  border: 1px solid;
+  padding: 10%;
+}
+.buttons{
+  margin: 6% 35%;
+  width: 30%;
+  background: #76ddfb;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20%;
+  padding: 5%;
+}
+.menu-parent{
+  background: #76ddfb;
+}
+.price, .price-2{
+  display: flex;
+  border: 1px solid;
+  padding: 3px 10px 3px 10px;
+  border-radius: 10%;
+  margin-right: 40px;
+}
+.signUp{
+  box-sizing: border-box;
+  display: flex;
+  justify-content: right;
+  margin-top: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: #ADDCFF;
+}
+.logo-notifation,.text-signup {
+  margin-right: 40px;
+}
+.main-header{
+  display: flex;
+  background-color: #ADDCFF;
+  padding-bottom: 80px;
+}
+.logo-header{
+  display: flex;
+}
+.logo-header img{
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.logo-header .logo-people{
+  position: absolute;
+  color: transparent;
+  text-align: right;
+  display: flex;
+  /* text-align: right; */
+  right: 0;
+  top: 5%;
+}
+.menu{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.menu li{
+  padding: 40px;
+}
+.menu li a{
+  display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* .__className_e66fe9{
+  background-color: #ADDCFF;
+} */
